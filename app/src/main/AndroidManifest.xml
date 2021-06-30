@@ -3,6 +3,8 @@
     package="com.example.smartrecipe">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    //google billing permission
+    <uses-permission android:name="com.android.vending.BILLING" />
 
     <application
         android:allowBackup="true"
