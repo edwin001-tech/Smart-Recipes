@@ -3,6 +3,8 @@
     package="com.example.smartrecipe">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
 
     <application
         android:allowBackup="true"
@@ -24,6 +26,8 @@
         <activity android:name=".RecipeListActivity"
             android:theme="@style/Theme.SmartRecipe.NoActionBar"/>
         <activity android:name=".RecipeActivity"
+            android:theme="@style/Theme.SmartRecipe.NoActionBar"/>
+        <activity android:name=".Billing"
             android:theme="@style/Theme.SmartRecipe.NoActionBar"/>
         <meta-data
             android:name="preloaded_fonts"

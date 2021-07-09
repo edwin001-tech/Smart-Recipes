@@ -13,16 +13,10 @@
 
 
         <action
-            android:id="@+id/action_nav_home_to_recipeListActivity"
+            android:id="@+id/action_nav_home_to_Billing"
             app:destination="@id/nav_categories" />
     </fragment>
-
-
-    <fragment
-        android:id="@+id/nav_subscription"
-        android:name="com.example.smartrecipe.ui.subscription.Subscription"
-        android:label="@string/menu_subscription"
-        tools:layout="@layout/fragment_subscription" />
+    
 
         <fragment
         android:id="@+id/nav_how_it_works"
@@ -36,8 +30,8 @@
         tools:layout="@layout/about_fragment" />
     <activity
         android:id="@+id/nav_categories"
-        android:name="com.example.smartrecipe.RecipeListActivity"
-        android:label="activity_recipe_list"
-        tools:layout="@layout/activity_recipe_list" />
+        android:name="com.example.smartrecipe.Billing"
+        android:label="activity_billing"
+        tools:layout="@layout/activity_billing" />
 
 </navigation>

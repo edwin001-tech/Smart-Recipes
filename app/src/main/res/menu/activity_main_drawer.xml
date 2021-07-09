@@ -18,10 +18,10 @@
 <!--            android:icon="@drawable/ic_recipe_foreground"-->
 <!--            android:title="@string/menu_recipe" />-->
 
-        <item
-            android:id="@+id/nav_subscription"
-            android:icon="@drawable/ic_subscription_foreground"
-            android:title="@string/menu_subscription" />
+<!--        <item-->
+<!--            android:id="@+id/nav_subscription"-->
+<!--            android:icon="@drawable/ic_subscription_foreground"-->
+<!--            android:title="@string/menu_subscription" />-->
 
 <!--        <item-->
 <!--            android:id="@+id/nav_memberships"-->

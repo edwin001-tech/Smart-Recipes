@@ -29,12 +29,12 @@ class HomeFragment : Fragment() {
         viewModel = ViewModelProvider(this).get(HomeViewModel::class.java)
         binding.viewModel = viewModel
 
-        viewModel.navigateToCategories.observe(viewLifecycleOwner,
+        viewModel.navigateToBilling.observe(viewLifecycleOwner,
             Observer<Boolean> { shouldNavigate ->
                 if (shouldNavigate == true) {
                     val navController = binding.root.findNavController()
-                    navController.navigate(R.id.action_nav_home_to_recipeListActivity)
-                    viewModel.onNavigatedToCategories()
+                    navController.navigate(R.id.action_nav_home_to_Billing)
+                    viewModel.onNavigatedToBilling()
                 }
             })
         return binding.root

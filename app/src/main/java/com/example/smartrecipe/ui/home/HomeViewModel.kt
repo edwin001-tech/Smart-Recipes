@@ -5,15 +5,15 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
 class HomeViewModel : ViewModel() {
-    private val _navigateToCategories = MutableLiveData<Boolean>()
-    val navigateToCategories: LiveData<Boolean>
-        get() = _navigateToCategories
+    private val _navigateToBilling = MutableLiveData<Boolean>()
+    val navigateToBilling: LiveData<Boolean>
+        get() = _navigateToBilling
 
     fun onFabClicked() {
-        _navigateToCategories.value = true
+        _navigateToBilling.value = true
     }
 
-    fun onNavigatedToCategories() {
-        _navigateToCategories.value = false
+    fun onNavigatedToBilling() {
+        _navigateToBilling.value = false
     }
 }
